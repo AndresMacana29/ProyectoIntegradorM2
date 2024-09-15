@@ -1,0 +1,31 @@
+@import '_values.scss';
+@import '_left.scss';
+@import '_right.scss';
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: $primary_color;
+    width: 70wv;
+    height: auto;
+    font-size: 1.6rem;
+    line-height: 1.2rem;
+
+}
+
+a{
+    text-decoration: none;
+    color: $color_texto;
+}
+
+h3{
+    font-family: $font-theerth;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}

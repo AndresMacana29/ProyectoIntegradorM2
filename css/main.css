@@ -1,0 +1,479 @@
+body > .information-left {
+  background-color: #292323;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.information-left > header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > .imagen-profile {
+  width: 100%;
+  height: 60%;
+  margin: 2rem;
+}
+
+.seccion-person > .name-person {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 5rem;
+  margin: 1rem;
+  text-align: center;
+  border-bottom: #fff solid 1px;
+}
+
+.seccion-person {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-profesion {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  color: #e0e0e0;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.imagen-profile {
+  width: max-width;
+  height: 300px;
+  border-radius: 250px;
+  border: 5px solid white;
+  margin-top: 1rem;
+}
+
+.information-contact {
+  width: 80%;
+  line-height: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-contact > h3 {
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.link-contact {
+  font-family: "DM Sans", sans-serif;
+  line-height: 2rem;
+}
+
+.tipo-informacion-contacto {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.tipo-informacion-contacto:hover {
+  color: #eeba0f;
+  text-shadow: 0 0 10px gold;
+}
+
+.social-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+i {
+  font-size: 2rem;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  transition: 0.3s ease;
+}
+
+.bi-whatsapp:hover {
+  background-color: #00bb2d;
+  color: white;
+  box-shadow: 0 0 15px #00bb2d, 0 0 45px #00bb2d, 0 0 75px #00bb2d, 0 0 115px #00bb2d;
+}
+
+.bi-facebook:hover {
+  background-color: #2530ce;
+  color: white;
+  box-shadow: 0 0 15px #2530ce, 0 0 45px #2530ce, 0 0 75px #2530ce, 0 0 115px #2530ce;
+}
+
+.bi-instagram:hover {
+  background-color: #e46f10;
+  color: white;
+  box-shadow: 0 0 15px #e46f10, 0 0 45px #e46f10, 0 0 75px #e46f10, 0 0 115px #e46f10;
+}
+
+.bi-linkedin:hover {
+  background-color: #010a8b;
+  color: white;
+  box-shadow: 0 0 15px #010a8b, 0 0 45px #010a8b, 0 0 75px #010a8b, 0 0 115px #010a8b;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+@media (min-width: 2030px) {
+  .seccion-person > .name-person {
+    font-size: 6rem;
+  }
+  .seccion-person {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .description-profesion {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    color: #e0e0e0;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .imagen-profile {
+    width: max-width;
+    height: 300px;
+    border-radius: 250px;
+    border: 5px solid white;
+    margin-top: 1rem;
+  }
+  .information-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .information-contact > h3 {
+    color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  .link-contact {
+    font-family: "DM Sans", sans-serif;
+    line-height: 2rem;
+  }
+  .tipo-informacion-contacto {
+    font-size: 2rem;
+    margin: 2rem;
+  }
+  .tipo-informacion-contacto:hover {
+    color: #eeba0f;
+    text-shadow: 0 0 10px gold;
+  }
+  .social-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  i {
+    font-size: 3rem;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+    transition: 0.3s ease;
+  }
+  .bi-whatsapp:hover {
+    background-color: #00bb2d;
+    color: white;
+    box-shadow: 0 0 15px #00bb2d, 0 0 45px #00bb2d, 0 0 75px #00bb2d, 0 0 115px #00bb2d;
+  }
+  .bi-facebook:hover {
+    background-color: #2530ce;
+    color: white;
+    box-shadow: 0 0 15px #2530ce, 0 0 45px #2530ce, 0 0 75px #2530ce, 0 0 115px #2530ce;
+  }
+  .bi-instagram:hover {
+    background-color: #e46f10;
+    color: white;
+    box-shadow: 0 0 15px #e46f10, 0 0 45px #e46f10, 0 0 75px #e46f10, 0 0 115px #e46f10;
+  }
+  .bi-linkedin:hover {
+    background-color: #010a8b;
+    color: white;
+    box-shadow: 0 0 15px #010a8b, 0 0 45px #010a8b, 0 0 75px #010a8b, 0 0 115px #010a8b;
+  }
+  .footer {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+}
+body > .rigth-container {
+  width: 70%;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #292323;
+  position: relative;
+  padding: 1rem;
+  left: 30%;
+}
+
+.rigth-container > .main-container {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navegator {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+
+.list-lateral {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.list-lateral > a:hover {
+  color: #eeba0f;
+  font-size: 3rem;
+  text-shadow: 0 0 20px white;
+}
+
+/* SECTION PROFILE*/
+.section-info {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.section-info > h2 {
+  font-size: 3rem;
+  font-family: "Bebas Neue", sans-serif;
+  color: #ffffff;
+  border-bottom: white solid 2px;
+  padding-bottom: 1rem;
+}
+
+.section-profile > p {
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 0.2rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+/* SECTION PROJECTS*/
+.container-card {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-projects {
+  width: 35rem;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 10px;
+  background-color: #2d2d2e;
+  margin: 1rem;
+  display: flex;
+}
+
+.card-projects > .container-img-card {
+  width: 50%;
+  height: 100%;
+  border-radius: 0 7px 7 px 0;
+  display: flex;
+}
+
+.container-img-card > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px 0 0 7px;
+  display: block;
+}
+
+.card-projects > .container-description-card {
+  width: 50%;
+  height: 100%;
+  border-radius: 0 7px 7 px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-description-card > h3,
+.container-description-card > p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+  margin-top: 0.2rem;
+}
+
+.container-description-card > p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.container-description-card > a {
+  height: 2.5rem;
+  width: 10rem;
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+  border-radius: 5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.container-description-card > a:hover {
+  background-color: #eeba0f;
+  box-shadow: 0 0 15px white;
+  color: black;
+}
+
+/* SECTION REFERENCES*/
+.card-references {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card-reference {
+  width: 26rem;
+  height: 18rem;
+  background-color: #2d2d2e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.card-reference > p {
+  text-align: left;
+  color: #ffffff;
+}
+
+/* SECTION EXPERIENCE*/
+.container-experience {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.card-experiencie {
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.card-experiencie > img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-experiencie > p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.progress-bar {
+  width: 10rem;
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 25px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #eeba0f;
+}
+
+.progress-bar::-moz-progress-bar {
+  background-color: #eeba0f;
+}
+
+.progress-bar::-ms-fill {
+  background-color: #eeba0f;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #292323;
+  width: 70wv;
+  height: auto;
+  font-size: 1.6rem;
+  line-height: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
